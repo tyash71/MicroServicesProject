@@ -14,8 +14,6 @@ public interface UserService {
     List<User> getAllUsers();
 
     //Get User By Id
-    User getUserById(String userId);
+    User getUser(String userId);
 
-    //TODO: delete user
-    //TODO: update user
 }
